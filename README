@@ -1,0 +1,17 @@
+Files :-
+tournament.py -- implementation of a Swiss-system tournament
+tournament.sql -- table definitions for the tournament project
+tournament_test.py -- Test cases for tournament.py
+
+Usage:-
+1. Type "vagrant up" on the CLI within the location of the cloned repository to
+start your vagrant system
+2. Type "vagrant ssh"to ssh into a running vagrant machine and give access to the shell
+3. Make sure you have postgreSQL on your system by typing psql. If a version is
+returned that implies having postgreSQL installed on your machine
+4. Create database tournament by typing CREATE DATABASE tournament
+5. Type \q
+6. Load sql schema using psql tournament < tournament.sql
+7. Run test by typing python tournament_test.py
+
+
